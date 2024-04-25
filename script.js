@@ -27,7 +27,7 @@ function conferirPalpite() {
 
     if (palpiteUsuario === numeroAleatorio) {
         ultimoResultado.textContent = "Parabéns! Você acertou!";
-        ultimoResultado.computedStyleMap.backgroundColor = "green";
+        ultimoResultado.style.backgroundColor = "green";
         baixoOuAlto.textContent = "";
         configFimDeJogo();
     } else if (contagemPalpites === 10) {
